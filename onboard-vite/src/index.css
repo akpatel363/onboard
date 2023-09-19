@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body {
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-radius: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bq {
+  background: rgba(136, 132, 119, 0.15);
+  color: #eb5756;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  letter-spacing: 1px;
+}
+
+.loader__center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}

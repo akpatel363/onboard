@@ -1,0 +1,13 @@
+{
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "module": "commonJS",
+    "baseUrl": "src",
+    "paths": {
+      "@constants/*": ["./constants/*"],
+      "@models/*": ["./models/*"],
+      "@gql/*": ["./gql/*"]
+    }
+  }
+}
